@@ -17,7 +17,7 @@
     <%= form_for(Comment.new, :html => {:class => "form-horizontal"}, remote: true) do |f| %>
       <div class="form-group">
         <div class="col-xs-12 ">
-          <%= fa_icon "user" %> &nbsp;<%= f.label :name, "姓名", :class => "control-label  " %>
+          <%= fa_icon "user" %> &nbsp;<%= f.label :name, "姓名 Name", :class => "control-label  " %>
         </div>
      
         <div class="col-xs-12 col-sm-4">
@@ -33,7 +33,7 @@
         <!--<button type="button" class="btn btn-success active" id="public_btn">公開</button>&nbsp; 
         -->
         <div class="col-md-6">
-          <label class="control-label">留言給 &nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <label class="control-label">留言 Message</label>
           <div class="btn-group form-control no-border" data-toggle="buttons" style="padding-left:0px;">
             <button class="btn btn-default" id="both_btn" >Daniel & Joanne</button> 
             <a class="btn btn-warning" id="maggie_btn">Joanne</a>
